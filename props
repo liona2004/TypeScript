@@ -1,0 +1,5 @@
+Props представляет коллекцию значений, которые ассоциированы с компонентом.
+They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen. 
+
+если value="haha" строка, то фигурные скобки {} можно опустить 
+но если value={true} не строка, а отдельный тип данных джавы скрипт, то фигурные скобки необходимы
