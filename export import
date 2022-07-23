@@ -1,5 +1,6 @@
 import {Rating} from "./components/Rating/Rating"; //это в фигурных скобках обозначает экспорт без дефолта, значит нельзя использовать другое однокоренное значение Rate
 
 as вариант изменить название  внутри import {Rating as R} from "./components/Rating/Rating"
+// теперь в файле в который импортируется функция Rating будет называться не Rating а R и Rating будет показывать ошибку
 
 export default Accordion; // если экспорт по дефолту, то название в импорт файле может быть Acc или подобные например: import Acc from "./components/Accordion/Accordion";
