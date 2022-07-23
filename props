@@ -3,3 +3,10 @@ They accept arbitrary inputs (called “props”) and return React elements desc
 
 если value="haha" строка, то фигурные скобки {} можно опустить 
 но если value={true} не строка, а отдельный тип данных джавы скрипт, то фигурные скобки необходимы
+
+
+
+return <h1>This is APP component</h1> // это слишком строгий вариант
+// надо заставить тег h1 обратиться к props элементу в котором находится текст  function PageTitle (props: any)
+                                                                                <PageTitle title={"This is APP component"}/>
+                                                                                return <h1>{ props.title }</h1>
