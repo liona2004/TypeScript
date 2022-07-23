@@ -1,0 +1,7 @@
+с помощью принципа единственной ответственности писать гибкий и модульный код
+
+выносить компоненты по отдельным файликам
+
+Each unit (class, function, object, module) should have only limited knowledge about other units
+
+каждый файл является отдельным модулем
